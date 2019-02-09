@@ -1,0 +1,36 @@
+.counter{
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#add {
+  font-size: 24px;
+  padding: 10px;
+  border: 4px solid black;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 20px;
+}
+#subtract {
+  font-size: 24px;
+  padding: 10px;
+  border: 4px solid black;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 20px;
+}
+button:hover{
+  color: white;
+  background-color: black;
+}
+.totalDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  width: 250px;
+  font-size: 30px;
+}
